@@ -1,0 +1,57 @@
+@font-face {
+    font-family: ClacCon;
+    src: url("clacon2.woff2");
+}
+html {
+    font-size: medium;
+    letter-spacing: 1.5px;
+    font-family: ClacCon;
+    color: #282828;
+}
+body {
+    font-family: ClacCon;
+    background-color: #ebddd2;
+}
+.Links{
+    margin: 300px 0 0;
+    width: 600px;
+    background-color: #f9f5d7;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #cc241d;
+}
+.BOX{
+    width: 600px;
+    margin: 3% auto;
+    background-color: #f9f5d7;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid #cc241d;
+}
+.accent{
+    color: #98971a;
+}
+a:link{
+    color: #b16286;
+}
+a:visited{
+    color: #8f3f71;
+}
+li::marker{
+    color: #d65d0e;
+}
+ol{
+    list-style-position: inside;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+h1, h2, h3{
+    color: #cc241d;
+    text-align: center;
+}
+h1{
+    font-size: 60;
+}
+h2, h3{
+    font-size: large;
+}
