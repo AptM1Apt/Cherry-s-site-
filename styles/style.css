@@ -45,6 +45,9 @@ a:visited{
 li::marker{
     color: #d65d0e;
 }
+li + li {
+    margin-top: 10px;
+}
 ol{
     list-style-position: inside;
 }
