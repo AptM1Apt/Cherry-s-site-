@@ -3,32 +3,39 @@
     src: url("clacon2.woff2");
 }
 html {
-    font-size: medium;
+    font-size: 1.3vw;
     letter-spacing: 1.5px;
     font-family: ClacCon;
     color: #282828;
+    background-image: url('Start.jpg');
+    background-size: cover;
+    background-position:initial;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+
 }
 body {
     font-family: ClacCon;
-    background-color: #ebddd2;
-}
-.Links{
-    margin: 300px 0 0;
-    width: 600px;
-    background-color: #f9f5d7;
-    padding: 0 20px 20px 20px;
-    border: 5px solid #cc241d;
 }
 .BOX{
-    width: 600px;
+    width: 45%;
     margin: 3% auto;
     background-color: #f9f5d7;
-    padding: 20px 20px 20px 20px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
     border: 5px solid #cc241d;
+}
+.Links{
+    width: 20%;
 }
 .accent{
     color: #98971a;
 }
+#instrucion{
+    background-color: #458588;
+    color: #fbf1c7;
+    border: inherit inherit#076678;
+}
+
 a:link{
     color: #b16286;
 }
@@ -50,8 +57,23 @@ h1, h2, h3{
     text-align: center;
 }
 h1{
-    font-size: 60;
+    font-size: 3vw;
 }
 h2, h3{
-    font-size: large;
+    font-size: 2vw;
 }
+
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 3vw;
+    }
+    h1{
+        font-size: 6vw;
+    }
+    h2, h3{
+        font-size: 4.5vw;
+    }
+    .BOX {
+      width: 80%;
+    }
+  }
